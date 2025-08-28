@@ -1,6 +1,6 @@
 # Testeador de RAM de 64kbytes para MS101 - MS104
 
-El testeador tiene capacidad de verificar hasta 64kB de memoria RAM, pero lo hace por sectores conformados por 8kbytes.
+El testeador tiene capacidad de verificar hasta 64kbytes de memoria RAM, pero lo hace por sectores conformados por 8kbytes.
 En total hay 8 sectores.
 
 La decisión de usar esta delimitación de sectores es debido al mapeo de memoria de la 101-104:
@@ -21,7 +21,7 @@ La decisión de usar esta delimitación de sectores es debido al mapeo de memori
 
 1. Conectar el testeador de ram en el algún espacio del rack de tarjetas, preferiblemene en el espacio del CPU.
 2. Hacer doble click en el botón para entrar a la configuración, donde se podrá seleccionar el sector a testear. Para moverse por las opciones se debe hacer un solo click, y una vez que se seleccione el sector deseado se vuelve a presionar doble click para volver al inicio.
-3. Una vez en el inicio, se comienza el test con un solo click
+3. Una vez en el inicio, se comienza el test con un solo click.
 4. Al finalizar el test, aparece la primera pantalla de resultado, que indica la cantidad de direcciones donde hubo errores de lectura. Con un click se pasa a la siguiente pantalla, donde se muestra con mayor detalle los bits que tuvieron fallas organizados en bloques de 1kbyte. Ejemplo:
 
     ```
